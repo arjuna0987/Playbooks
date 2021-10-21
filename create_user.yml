@@ -1,0 +1,7 @@
+--- # User creation
+- hosts: all
+  become: true
+  tasks:
+  - user: name=somu  
+
+
